@@ -4,20 +4,18 @@
     box-sizing: border-box;
     font-size: 62.5%;
 }
-body{
-   
-}
+
 .header{
     width: 100VW;
     height: 5rem;
     background-color: green;
     font-size: 4rem;
-    border-bottom: 2PX solid #000;
+    border-bottom: 2PX solid #fff;
 }
 .nav{
     width: 100vw;
     height: 100%;
-    background-color: #2D9596;
+    background-color: #B06161;
     display: flex;
    align-items: center;
     justify-content: center;
@@ -41,5 +39,15 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    font-size: 10rem;
+    color: #6499E9;
+    font-weight: 900;
+   text-align: center;
+   padding-top: 12rem;
+   font-family: fantasy;
+}
+.menu_creater_box{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
 }
