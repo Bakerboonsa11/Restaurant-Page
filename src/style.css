@@ -74,6 +74,11 @@
     background-color: aqua;
     width: 54rem;
 
-    height: 30rem;
+    height: 40rem;
     /* margin: 1rem; */
+}
+.img{
+  width: 54rem;
+  height: auto;
+  border-radius: 40%;
 }

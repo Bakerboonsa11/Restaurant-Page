@@ -42,10 +42,14 @@ global_fun()
 
 
  const menu = document.querySelector(".btn_menu")
+ const home = document.querySelector(".btn_home")
 //
 menu.addEventListener("click" ,function(){
   
    body.removeChild(div_container);
     menu_creater()
 
+})
+home.addEventListener("click",function(){
+    window.location.reload();
 })
