@@ -21,6 +21,8 @@ btn_about.classList.add("btn")
 nav.appendChild(btn_about)
 btn_about.textContent= "About"
 
-
-
+// create div here 
+const div_container = document.createElement("div");
+body.appendChild(div_container)
+div_container.classList.add("div_container")
 
