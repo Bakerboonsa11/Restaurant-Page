@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.header{
+    max-width: 100%;
+    height: 5rem;
+    background-color: green;
+    font-size: 4rem;
+}
+.nav{
+    width: 100vw;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    gap: 20rem;
+}
+.btn{
+    width: 10rem;
+    height: 3rem;
+}
