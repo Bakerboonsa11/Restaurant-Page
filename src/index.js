@@ -1,5 +1,5 @@
 import './style.css';
-import {menu_creater} from './menu.js';
+import { container_creater ,element_creater} from './menu.js';
 let  body;
 let header;
 let  nav
@@ -47,7 +47,15 @@ global_fun()
 menu.addEventListener("click" ,function(){
   
    body.removeChild(div_container);
-    menu_creater()
+   container_creater("div","clas");
+   element_creater("div","h1","p")
+   element_creater("div","h1","p")
+   element_creater("div","h1","p")
+   element_creater("div","h1","p")
+   element_creater("div","h1","p")
+   element_creater("div","h1","p")
+   element_creater("div","h1","p")
+   element_creater("div","h1","p")
 
 })
 home.addEventListener("click",function(){

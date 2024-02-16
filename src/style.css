@@ -51,6 +51,8 @@
     width: 100vw;
     background-color: #E1F0DA;
     padding: 5rem 7rem 4rem 7rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 .menu_header{
     font-size: 5rem;
@@ -58,27 +60,31 @@
     text-align: center;
     margin-bottom: 2rem;
 }
-.iner_box_menu{
-    background-color: #99BC85;
-    width: 100%;
-    height: 40rem;
-    margin: 0 auto;
-    display: flex;
-    
-    gap: 10px;
-    flex-wrap: wrap;
-    overflow-y:scroll ;
-    padding: 6rem;
-}
-.img_container{
-    background-color: aqua;
-    width: 54rem;
 
-    height: 40rem;
-    /* margin: 1rem; */
+.element{
+    width: 40rem;
+    height: 20rem;
+    background-color: #B06161;
 }
-.img{
-  width: 54rem;
-  height: auto;
-  border-radius: 40%;
+.clas{
+ width: 90vw;
+ height: 80vh;
+ background-color: #FFE4C9;
+ margin: 0 auto;
+ margin-top: 4rem;
+ border-radius: 10px;
+ /* box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5); */
+ box-shadow: 0 0 30px #ff0000 ;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 20px;
+ flex: 1;
+ overflow: scroll;
+}
+
+.each_element{
+ width: 35rem;
+ height: 30rem;
+ background-color: #ff0000;
 }
