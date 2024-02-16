@@ -1,3 +1,13 @@
+import myimage1 from './espreso.jpg'
+import myimage2 from './captino.jpg'
+import myimage3 from './latte.jpg'
+import myimage4 from './americano.jpg'
+import myimage5 from './machiato.jpg'
+import myimage6 from './mocho.jpg'
+import myimage7 from './espreso.jpg'
+import myimage10 from './flatwhite.jpg'
+import myimage8 from './turkish.jpg'
+import myimage9 from './Frappuccino:.jpg'
 import './style.css';
 import { container_creater ,element_creater} from './menu.js';
 let  body;
@@ -49,15 +59,15 @@ menu.addEventListener("click" ,function(){
   
    body.removeChild(div_container);
    container_creater("div","clas");
-   element_creater("div","Espresso:$2","p")
-   element_creater("div","Cappuccino:","p")
-   element_creater("div","Latte:","p")
-   element_creater("div","Americano:","p")
-   element_creater("div","Macchiato:","p")
-   element_creater("div","Mocha:","p")
-   element_creater("div","Flat White:","p")
-   element_creater("div","Turkish Coffee:","p")
-   element_creater("div","Frappuccino:","p")
+   element_creater("div","Espresso:",myimage1)
+   element_creater("div","Cappuccino:",myimage2)
+   element_creater("div","Latte:",myimage3)
+   element_creater("div","Americano:",myimage4)
+   element_creater("div","Macchiato:",myimage5)
+   element_creater("div","Mocha:",myimage6)
+   element_creater("div","Flat White:",myimage7)
+   element_creater("div","Turkish ",myimage8)
+   element_creater("div","Frappuccino:",myimage9)
 
 
 })
