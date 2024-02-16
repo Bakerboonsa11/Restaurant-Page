@@ -87,7 +87,7 @@
 .each_element{
  width: 35rem;
  height: 30rem;
- background-color: #ff0000;
+ /* background-color: #ff0000; */
  border-radius: 10px;
 }
 .header_of_elemnt{

@@ -7,7 +7,7 @@ let  nav
  let btn_about
  let btn_menu
  let div_container
- const p1 = 
+ 
 
 function global_fun(){
      body = document.querySelector("body");
@@ -49,7 +49,7 @@ menu.addEventListener("click" ,function(){
   
    body.removeChild(div_container);
    container_creater("div","clas");
-   element_creater("div","Espresso:Price: $2-4","p")
+   element_creater("div","Espresso:$2","p")
    element_creater("div","Cappuccino:","p")
    element_creater("div","Latte:","p")
    element_creater("div","Americano:","p")
