@@ -81,10 +81,25 @@
  gap: 20px;
  flex: 1;
  overflow: scroll;
+ padding: 4rem 0 2rem 0;
 }
 
 .each_element{
  width: 35rem;
  height: 30rem;
  background-color: #ff0000;
+ border-radius: 10px;
+}
+.header_of_elemnt{
+    font-size: 5rem;
+    color:black;
+    text-align: center;
+    margin: 1rem;
+    /* display: inline; */
+    overflow: hidden;
+}
+.paragraph{
+    font-size: 5rem;
+    color: yellow;
+    /* text-align: center; */
 }
