@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-size: 62.5%;
 }
+body{
+    position: relative;
+}
 
 .header{
     width: 100VW;
@@ -133,4 +136,29 @@
     background-color:#fff;
     color: #6499E9;
     border: none;
+}
+.about_container{
+   
+    width:  125rem;
+    height: 50rem;
+    position: absolute;
+    background-color: #FFE7E7;
+    color: #001F3F;
+   
+    left:4%;
+    top: 12%;
+    font-size: 2.3rem;
+    overflow: hidden;
+    padding: 2rem 5rem 2rem 5rem;
+    line-height: 1.9;
+    border-radius: 10px;
+    /* margin-right: 10rem; */
+}
+.remove_btn{
+    width: 3rem;
+    height: 2rem;
+    color: #ff0000;
+    font-size: 4rem;
+    cursor: pointer;
+    margin-left: 95%;
 }

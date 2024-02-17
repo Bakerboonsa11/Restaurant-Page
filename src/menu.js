@@ -1,5 +1,5 @@
 let  body
-let  container
+export let  container
 let  each_element_coniner
 const dolar = ["1$","3$","5$","6$","4.4$","5.3%","2.4$","1.3$","9$"]
 let counter = 0

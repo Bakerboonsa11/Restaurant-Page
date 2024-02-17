@@ -9,13 +9,15 @@ import myimage10 from './flatwhite.jpg'
 import myimage8 from './turkish.jpg'
 import myimage9 from './Frappuccino:.jpg'
 import './style.css';
-import { container_creater ,element_creater} from './menu.js';
+import { container_creater ,element_creater, container} from './menu.js';
+import { about_create_content,delete_btn, remove_btn} from './about.js';
 let  body;
 let header;
 let  nav
  let btn_home
  let btn_about
  let btn_menu
+ let btn_contact
  let div_container
  
 
@@ -43,6 +45,13 @@ function global_fun(){
     btn_about.classList.add("btn_about")
     nav.appendChild(btn_about)
     btn_about.textContent= "About"
+
+    btn_contact = document.createElement("button");
+    btn_contact.classList.add("btn")
+    btn_contact.classList.add("btn_contact")
+    btn_contact.textContent= "Menu"
+    nav.appendChild(btn_menu)
+
      div_container = document.createElement("div");
     body.appendChild(div_container)
     div_container.classList.add("div_container");
@@ -54,6 +63,7 @@ global_fun()
 
  const menu = document.querySelector(".btn_menu")
  const home = document.querySelector(".btn_home")
+ const about = document.querySelector(".btn_about")
 //
 menu.addEventListener("click" ,function(){
   
@@ -74,3 +84,9 @@ menu.addEventListener("click" ,function(){
 home.addEventListener("click",function(){
     window.location.reload();
 })
+about.addEventListener("click",function(){
+     
+    about_create_content()
+})
+
+
