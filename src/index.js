@@ -11,6 +11,9 @@ import myimage9 from './Frappuccino:.jpg'
 import './style.css';
 import { container_creater ,element_creater, container} from './menu.js';
 import { about_create_content,delete_btn, remove_btn} from './about.js';
+import { create_contact} from './contact.js';
+import logo from './cofelogo.png'
+import backgroundc from './contactback.jpg'
 let  body;
 let header;
 let  nav
@@ -40,17 +43,19 @@ function global_fun(){
     btn_menu.classList.add("btn_menu")
     btn_menu.textContent= "Menu"
     nav.appendChild(btn_menu)
+    btn_contact = document.createElement("button");
+    btn_contact.classList.add("btn")
+    btn_contact.classList.add("btn_contact")
+    btn_contact.textContent= "contact"
+    nav.appendChild(btn_contact) 
+
    btn_about = document.createElement("button");
     btn_about.classList.add("btn")
     btn_about.classList.add("btn_about")
     nav.appendChild(btn_about)
     btn_about.textContent= "About"
 
-    btn_contact = document.createElement("button");
-    btn_contact.classList.add("btn")
-    btn_contact.classList.add("btn_contact")
-    btn_contact.textContent= "Menu"
-    nav.appendChild(btn_menu)
+    
 
      div_container = document.createElement("div");
     body.appendChild(div_container)
@@ -64,6 +69,7 @@ global_fun()
  const menu = document.querySelector(".btn_menu")
  const home = document.querySelector(".btn_home")
  const about = document.querySelector(".btn_about")
+ const contact = document.querySelector(".btn_contact")
 //
 menu.addEventListener("click" ,function(){
   
@@ -87,6 +93,9 @@ home.addEventListener("click",function(){
 about.addEventListener("click",function(){
      
     about_create_content()
+})
+contact.addEventListener("click",function(){
+    create_contact(logo,backgroundc)
 })
 
 

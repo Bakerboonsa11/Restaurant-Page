@@ -6,19 +6,21 @@
 }
 body{
     position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
 .header{
     width: 100VW;
     height: 5rem;
-    background-color: green;
+    /* background-color: green; */
     font-size: 4rem;
     border-bottom: 2PX solid #fff;
 }
 .nav{
     width: 100vw;
     height: 100%;
-    background-color: #B06161;
+    background-color: #B5C0D0;
     display: flex;
    align-items: center;
     justify-content: center;
@@ -77,7 +79,8 @@ body{
  margin-top: 4rem;
  border-radius: 10px;
  /* box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5); */
- box-shadow: 0 0 30px #ff0000 ;
+ /* box-shadow: 0 0 30px #ff0000 ; */
+ box-shadow: 0 0 30px #6499E9 inset;
  display: flex;
  flex-wrap: wrap;
  justify-content: center;
@@ -161,4 +164,40 @@ body{
     font-size: 4rem;
     cursor: pointer;
     margin-left: 95%;
+}
+.cantact_container{
+    width:100%;
+    height: 100%;
+    /* background-color: #ff0000; */
+    position: absolute;
+    top: 4.9rem;
+    left: 0;
+    border: 1px solid #6499E9;
+    /* background-color: rgba(173, 216, 230, 0.3); */
+    /* background-color: #ffffff; */
+     background-color: rgba(0, 0, 0, 0.7); 
+    /* box-shadow: 0 0 30px #6499E9 inset;  */
+}
+.logo{
+    width: 10rem;
+    height: auto;
+  margin-left: 15rem;
+  margin-top: 5rem;
+  font-weight: 900;
+}
+.small_head{
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    /* text-align: center; */
+    margin-left: 17rem;
+    margin-top: 0;
+}
+.big_head{
+    font-size: 4rem;
+    color: #fff;
+    margin-left: 12rem;
+    font-weight: 200;
+    margin-top: 1rem;
 }
