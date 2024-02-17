@@ -1,4 +1,16 @@
-
+const symbols = [
+    "\uD83D\uDCDE", // Phone symbol
+    "\uD83C\uDFE2", // Address symbol
+    "\uD83D\uDD17", // Website symbol
+    "\u2709" // Email symbol
+  ];
+  const contacts =[
+    "+251-9-49-30-38-25",
+    "Ethio-Haramay",
+    "click here ",
+    "Bakerboonsa11@gmail.com"
+  ]
+  let counter = 0
  export function create_contact(logo,backgroundc){
     const menu =document.querySelector(".btn_menu");
   
@@ -12,6 +24,10 @@
     contct_diplayer.classList.add("cantact_container")
     body.appendChild(contct_diplayer)
      header_and_logo_contact(contct_diplayer,logo,backgroundc)
+     info_creator(contct_diplayer)
+     info_creator(contct_diplayer)
+     info_creator(contct_diplayer)
+     info_creator(contct_diplayer)
 }
 function header_and_logo_contact(contct_diplayer ,logoUrl,backgroundc){
     const body = document.querySelector("body")
@@ -31,6 +47,17 @@ function header_and_logo_contact(contct_diplayer ,logoUrl,backgroundc){
 
  
 }
-function info_creator(){
-
+function info_creator( contct_diplayer ){
+   const flex_container = document.createElement("div");
+   flex_container.classList.add("flex_container")
+   contct_diplayer.appendChild(flex_container)
+   const logo_div = document.createElement("div")
+   logo_div.textContent=symbols[counter]
+   logo_div.classList.add("logo_div")
+   flex_container.appendChild(logo_div)
+   const text_container_div = document.createElement("div")
+   text_container_div.classList.add("text_container")
+   flex_container.appendChild(text_container_div)
+   text_container_div.textContent=contacts[counter]
+   counter++
 }

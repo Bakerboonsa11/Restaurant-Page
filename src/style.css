@@ -201,3 +201,11 @@ body{
     font-weight: 200;
     margin-top: 1rem;
 }
+.logo_div{
+    font-size: 4rem;
+}
+.text_container{
+    /* color: #fff; */
+    font-size: 3rem;
+    color: #fff;
+}
