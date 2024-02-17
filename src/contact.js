@@ -8,7 +8,7 @@ const symbols = [
   const contacts =[
     "+251-9-49-30-38-25",
     "Ethio-Haramay",
-    "click here ",
+    "press coffee ",
     "Bakerboonsa11@gmail.com"
   ]
   let counter = 0
