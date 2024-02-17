@@ -6,25 +6,27 @@
 }
 body{
     position: relative;
-    width: 100vw;
+    max-width: 2500px;
     height: 100vh;
 }
 
 .header{
-    width: 100VW;
+    /* width: 100VW; */
     height: 5rem;
     /* background-color: green; */
+    max-width: 2500px;
     font-size: 4rem;
     border-bottom: 2PX solid #fff;
 }
 .nav{
-    width: 100vw;
+    /* width: 100vw; */
+    max-width: 2500px;
     height: 100%;
     background-color: #B5C0D0;
     display: flex;
    align-items: center;
     justify-content: center;
-    gap: 20rem;
+    gap: 200px;
 }
 .btn{
     width: 10rem;
@@ -40,6 +42,7 @@ body{
 }
 .div_container{
     height: 100vh;
+    max-width: 2500px;
     background: url(./robert-bye-4UGlx_OXqgs-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -48,7 +51,7 @@ body{
     color: #6499E9;
     font-weight: 900;
    text-align: center;
-   padding-top: 12rem;
+   padding-top: 120px;
    font-family: fantasy;
 }
 .menu_creater_box{
@@ -178,6 +181,7 @@ body{
      background-color: rgba(0, 0, 0, 0.7); 
     /* box-shadow: 0 0 30px #6499E9 inset;  */
     animation: animationName 1s ease-in;
+    border-radius: 10px;
 }
 @keyframes animationName {
     0% {
@@ -238,3 +242,21 @@ body{
     /* justify-content: center; */
     column-gap: 3rem;
 }
+.cancel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    /* border: none; */
+    /* border: 1 solid #fff; */
+    /* border-radius: 10px; */
+    /* padding-top: 0.5rem; */
+    border: none;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+  }

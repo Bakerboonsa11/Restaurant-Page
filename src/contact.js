@@ -29,6 +29,7 @@ const symbols = [
      info_creator(contct_diplayer)
      info_creator(contct_diplayer)
      info_creator(contct_diplayer)
+     cancle_contact(contct_diplayer)
 }
 function header_and_logo_contact(contct_diplayer ,logoUrl,backgroundc){
     const body = document.querySelector("body")
@@ -61,4 +62,23 @@ function info_creator( contct_diplayer ){
    flex_container.appendChild(text_container_div)
    text_container_div.textContent=contacts[counter]
    counter++
+}
+function cancle_contact(contct_diplayer) {
+  const cancel = document.createElement("button");
+  cancel.classList.add("cancel");
+  cancel.textContent = "X";
+  contct_diplayer.appendChild(cancel);
+  cancel.addEventListener("click",function(){
+    add_event_to_cancel()
+  })
+}
+function add_event_to_cancel(){
+ 
+  const container = document.querySelector(".cantact_container")
+  container.remove()
+  const menu =document.querySelector(".btn_menu");
+  
+  menu.disabled= false ;
+ 
+  const about =document.querySelector(".btn_about").disabled= false 
 }
