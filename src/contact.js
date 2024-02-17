@@ -1,8 +1,9 @@
 const symbols = [
-    "\uD83D\uDCDE", // Phone symbol
+    "\u26D4\ufe0f\ufe0e", // Phone symbol
     "\uD83C\uDFE2", // Address symbol
     "\uD83D\uDD17", // Website symbol
-    "\u2709" // Email symbol
+    "📧",// Email symbol
+   
   ];
   const contacts =[
     "+251-9-49-30-38-25",

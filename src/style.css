@@ -166,7 +166,7 @@ body{
     margin-left: 95%;
 }
 .cantact_container{
-    width:100%;
+    width:30%;
     height: 100%;
     /* background-color: #ff0000; */
     position: absolute;
@@ -200,12 +200,24 @@ body{
     margin-left: 12rem;
     font-weight: 200;
     margin-top: 1rem;
+    /* margin-bottom: 8rem; */
 }
 .logo_div{
-    font-size: 4rem;
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 13rem;
+    margin-top: 4rem;
 }
 .text_container{
     /* color: #fff; */
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: #fff;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.flex_container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    column-gap: 3rem;
 }
