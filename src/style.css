@@ -189,12 +189,13 @@ body{
         
     }
     50% {
-      /* Intermediate styles */
+     
       opacity: 50%;
     }
     100% {
-      /* Final styles */
+    
       opacity: 100%;
+    
     }
   }
 .logo{

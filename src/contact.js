@@ -63,22 +63,3 @@ function info_creator( contct_diplayer ){
    text_container_div.textContent=contacts[counter]
    counter++
 }
-function cancle_contact(contct_diplayer) {
-  const cancel = document.createElement("button");
-  cancel.classList.add("cancel");
-  cancel.textContent = "X";
-  contct_diplayer.appendChild(cancel);
-  cancel.addEventListener("click",function(){
-    add_event_to_cancel()
-  })
-}
-function add_event_to_cancel(){
- 
-  const container = document.querySelector(".cantact_container")
-  container.remove()
-  const menu =document.querySelector(".btn_menu");
-  
-  menu.disabled= false ;
- 
-  const about =document.querySelector(".btn_about").disabled= false 
-}
