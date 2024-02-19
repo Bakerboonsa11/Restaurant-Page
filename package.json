@@ -9,6 +9,7 @@
     "build": "webpack"
   },
   "keywords": [],
+  "mode":"production",
   "author": "example_user <example-user@example.com>",
   "license": "ISC",
   "devDependencies": {
